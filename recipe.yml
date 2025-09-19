@@ -1,0 +1,29 @@
+name: "Setup Gin Theme"
+description: "Sets up Gin theme for a cleaner admin look"
+type: "Site"
+
+install:
+  - drupal:block
+  - drupal:help
+  - drupal:gin
+  - drupal:gin_login
+  - drupal:gin_toolbar
+
+config:
+  strict: false
+  actions:
+    system.theme:
+      simpleConfigUpdate:
+        admin: "gin"
+        default: "gin"
+    system.date:
+      simpleConfigUpdate:
+        first_day: 1
+        country:
+          default: TR
+        timezone:
+          default: Europe/Istanbul
+          user:
+            configurable: false
+            default: 0
+            warn: false

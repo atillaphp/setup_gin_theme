@@ -1,0 +1,12 @@
+{
+    "name": "soganbilisim/setup_gin_theme",
+    "description": "Recipe to set up Gin theme for Drupal admin",
+    "version": "1.0.0",
+    "type": "drupal-recipe",
+    "require": {
+        "drupal/gin": "^5.0",
+        "drupal/gin_login": "^2.1",
+        "drupal/gin_toolbar": "^3.0",
+        "drupal/recipe_tracker": "^1"
+    }
+}
