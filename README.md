@@ -14,7 +14,7 @@ To use this recipe in your Drupal project:
 
    ```json
    "require": {
-       "soganbilisim/setup_gin_theme": "*"
+       "atillaphp/setup_gin_theme": "*"
    }
    ```
 
